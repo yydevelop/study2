@@ -1,0 +1,48 @@
+/* @theme future */
+
+@import 'default';
+
+section {
+	width: 1920px;
+	height: 1080px;
+	font-size: 40px;
+	padding: 40px;
+	background-image: url(./logo.png);
+	background-repeat: no-repeat;
+	background-position: right top;
+}
+
+header {
+	width: 100%;
+	padding: 1px;
+	color: palevioletred;
+	background: linear-gradient(to right, #0070C0, white);
+	top: 20px;
+}
+
+
+footer {
+    box-sizing:border-box;
+    border:10px solid #0070C0;
+    background-color:#0070C0;
+    width:100%; 
+    left: 0px;
+    bottom: 0px; 
+    font:Arial;
+    color : white;
+    background-image: url(./corp-normal.png);
+    background-repeat: no-repeat;
+    background-size: 10%;
+    background-position: 10px top
+}
+
+h1 {
+	font-size: 90px;
+	color: #0070C0;
+}
+
+
+h2 {
+	font-size:80px;
+	color: #0070C0;
+}

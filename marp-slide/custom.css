@@ -1,0 +1,56 @@
+/* @theme custom */
+
+@import 'default';
+
+section {
+    justify-content: normal;
+    }
+
+section h2{
+    color: rgb(68, 67, 67);
+    font-size: 28px;
+    width: 93%;
+    border-bottom: 2px solid #D7D7D7;
+    position: absolute;
+    top:4%;
+    left:4%;
+}
+
+section h3{
+    font-size: 24px;
+}
+
+section p{
+    font-size: 20px;
+}
+
+
+footer {
+    box-sizing:border-box;
+    border:10px solid #0070C0;
+    background-color:#0070C0;
+    width:100%; 
+    left: 0px;
+    bottom: 0px; 
+    font:Arial;
+    color : white;
+    background-image: url(./corp-normal.png);
+    background-repeat: no-repeat;
+    background-size: 10%;
+    background-position: 10px top
+}
+
+section::after {
+    font-size:20px;
+    color:white;
+    bottom:10px;
+}
+
+section.last {
+    background-image: url(./corp-last.png);
+    background-repeat: no-repeat;
+    background-color:#0070C0;
+    background-size: 400px;
+    background-position-x: center;
+    background-position-y: center;
+}
